@@ -5,7 +5,7 @@ import Store from './components/store'
 import Customize from './components/customize'
 import Download from './components/download'
 
-import icons from '@moon-icon/svg/resources/index.json'
+import icons from '@moonicon/svg/resources/index.json'
 import { useIconsStore } from '@/store/icons'
 import type { Icon } from '@/store/icons/types'
 

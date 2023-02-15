@@ -29,7 +29,7 @@ export default defineConfig({
     })
   ],
   build: {
-    outDir: 'moon-icon',
+    outDir: 'moonicon',
     rollupOptions: {
       external: ['vue'],
       output: {
@@ -39,7 +39,7 @@ export default defineConfig({
       }
     },
     lib: {
-      entry: resolve(__dirname, 'packages/moon-icon-vue3/src/index.ts'),
+      entry: resolve(__dirname, 'packages/moonicon-vue3/src/index.ts'),
       formats: ['es']
     }
   },

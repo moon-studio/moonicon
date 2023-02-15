@@ -6,14 +6,14 @@ const _dirname = path.dirname(filename)
 
 const svgFilePath = path.resolve(
   process.env.npm_lifecycle_event === 'compiler'
-    ? 'packages/moon-icon-svg/files/'
+    ? 'packages/moonicon-svg/files/'
     : './files/'
 )
 
 const svgComponentsFilePath = path.resolve(
   process.env.npm_lifecycle_event === 'compiler'
-    ? 'packages/moon-icon-vue3/components/'
-    : path.join(_dirname, '../../moon-icon-vue3/components/')
+    ? 'packages/moonicon-vue3/components/'
+    : path.join(_dirname, '../../moonicon-vue3/components/')
 )
 
 const v3ComponentTemplate = (filename: string, shapeStr: string) => {

@@ -8,8 +8,8 @@
     "prettier": "prettier --write \"src/**/*.{vue,ts,tsx}\""
   },
   "dependencies": {
-    "@moon-icon/svg": "workspace:^1.0.0",
-    "@moon-icon/vue3": "workspace:^1.0.0",
+    "@moonicon/svg": "workspace:^1.0.0",
+    "@moonicon/vue3": "workspace:^1.0.0",
     "naive-ui": "^2.34.3",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.27",
@@ -29,6 +29,6 @@
     "vue-tsc": "^1.0.11"
   },
   "repository": {
-    "directory": "packages/moon-icon-website"
+    "directory": "packages/moonicon-website"
   }
 }

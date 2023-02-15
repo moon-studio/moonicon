@@ -3,7 +3,7 @@
     <br />
     <br />
     <br />
-    English | <a href="https://github.com/moon-studio/moon-icon/blob/main/README.zh-CN.md">中文</a>
+    English | <a href="https://github.com/moon-studio/moonicon/blob/main/README.zh-CN.md">中文</a>
     <br />
 </div>
 
@@ -23,12 +23,12 @@ Please confirm the required framework for your project before installing.
 
 ```shell
 # vue3
-pnpm install @moon-icon/vue3 -D
+pnpm install @moonicon/vue3 -D
 ```
 
 ### Contribution
 
-For contribution to icon resources, please refer to <a href="https://github.com/moon-studio/moon-icon/blob/main/CONTRIBUTING-SVG.md">CONTRIBUTING-SVG.md</a>
+For contribution to icon resources, please refer to <a href="https://github.com/moon-studio/moonicon/blob/main/CONTRIBUTING-SVG.md">CONTRIBUTING-SVG.md</a>
 
 ### Acknowledgement
 

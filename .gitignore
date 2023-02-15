@@ -13,10 +13,10 @@ dist-ssr
 packages/*/node_modules
 packages/*/.temp
 packages/*/.cache
-moon-icon
-packages/moon-icon-vue3/components/*
-packages/moon-icon-svg/resources/*
-packages/moon-icon-website/src/csv/*
+moonicon
+packages/moonicon-vue3/components/*
+packages/moonicon-svg/resources/*
+packages/moonicon-website/src/csv/*
 
 .pnpm-debug.log
 

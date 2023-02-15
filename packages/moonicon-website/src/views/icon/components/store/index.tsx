@@ -2,7 +2,7 @@ import styles from './index.module.scss'
 import { useIconsStore } from '@/store/icons'
 import { computed } from 'vue'
 
-import MIcon from '@moon-icon/vue3/src'
+import MIcon from '@moonicon/vue3/src'
 import { Icon } from '@/store/icons/types'
 
 export default defineComponent({

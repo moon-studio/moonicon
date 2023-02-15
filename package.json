@@ -1,36 +1,36 @@
 {
-  "name": "moon-icon",
+  "name": "moonicon",
   "version": "0.0.1",
   "description": "easy-to-use and rich componentized icon library.",
-  "main": "moon-icon/moon-icon.js",
+  "main": "moonicon/moonicon.js",
   "type": "module",
   "files": [
-    "moon-icon/*"
+    "moonicon/*"
   ],
   "scripts": {
     "lint": "eslint src --fix --ext .ts,.tsx,.vue",
     "prettier": "prettier --write \"packages/**/*.{vue,ts,tsx}\"",
-    "test:vue3": "vitest run packages/moon-icon-vue3",
-    "test:util": "vitest run packages/moon-icon-util",
-    "test-coverage:vue3": "vitest run --coverage packages/moon-icon-vue3",
-    "test-coverage:util": "vitest run --coverage packages/moon-icon-util",
-    "example:vue3": "vite packages/moon-icon-vue3/example",
-    "website": "vite packages/moon-icon-website",
-    "compiler": "ts-node-esm packages/moon-icon-svg/scripts/index.ts",
-    "exportJson": "ts-node-esm packages/moon-icon-svg/scripts/exportJson.ts",
-    "exportCsv": "json2csv -i packages/moon-icon-svg/resources/index.json -c packages/moon-icon-svg/config/fieldsConfig.json -o packages/moon-icon-website/src/csv/out.csv",
+    "test:vue3": "vitest run packages/moonicon-vue3",
+    "test:util": "vitest run packages/moonicon-util",
+    "test-coverage:vue3": "vitest run --coverage packages/moonicon-vue3",
+    "test-coverage:util": "vitest run --coverage packages/moonicon-util",
+    "example:vue3": "vite packages/moonicon-vue3/example",
+    "website": "vite packages/moonicon-website",
+    "compiler": "ts-node-esm packages/moonicon-svg/scripts/index.ts",
+    "exportJson": "ts-node-esm packages/moonicon-svg/scripts/exportJson.ts",
+    "exportCsv": "json2csv -i packages/moonicon-svg/resources/index.json -c packages/moonicon-svg/config/fieldsConfig.json -o packages/moonicon-website/src/csv/out.csv",
     "build": "npm run compiler && vite build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moon-studio/moon-icon.git"
+    "url": "git+https://github.com/moon-studio/moonicon.git"
   },
   "author": "moon-studio",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moon-studio/moon-icon/issues"
+    "url": "https://github.com/moon-studio/moonicon/issues"
   },
-  "homepage": "https://github.com/moon-studio/moon-icon#readme",
+  "homepage": "https://github.com/moon-studio/moonicon#readme",
   "devDependencies": {
     "@types/json2csv": "^5.0.3",
     "@types/node": "^18.6.4",

@@ -4,7 +4,7 @@ import jsonData from '../resources/index.json' assert { type: 'json' }
 
 const svgFilePath = path.resolve(
   process.env.npm_lifecycle_event === 'exportJson'
-    ? 'packages/moon-icon-svg/files/'
+    ? 'packages/moonicon-svg/files/'
     : './files/'
 )
 
@@ -21,7 +21,7 @@ const checkOutputDir = () => {
   if (Object.keys(jsonData).length === 0) {
     const content = JSON.stringify(jsonTemp, null, '\t')
     fs.writeFile(
-      'packages/moon-icon-svg/resources/index.json',
+      'packages/moonicon-svg/resources/index.json',
       content,
       function (err) {
         if (err) {
@@ -44,7 +44,7 @@ const checkOutputDir = () => {
     )
     const content = JSON.stringify(icons, null, '\t')
     fs.writeFile(
-      'packages/moon-icon-svg/resources/index.json',
+      'packages/moonicon-svg/resources/index.json',
       content,
       function (err) {
         if (err) {

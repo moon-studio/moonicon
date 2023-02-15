@@ -20,7 +20,7 @@
     "resolveJsonModule": true,
     "rootDir": ".",
     "paths": {
-      "@moon-icon/*": ["packages/*"]
+      "@moonicon/*": ["packages/*"]
     }
   },
   "include": [

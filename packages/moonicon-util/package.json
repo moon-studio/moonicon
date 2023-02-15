@@ -1,5 +1,5 @@
 {
-  "name": "@moon-icon/util",
+  "name": "@moonicon/util",
   "version": "1.0.0",
   "description": "util function collection.",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test:coverage": "vitest run --coverage"
   },
   "repository": {
-    "directory": "packages/moon-icon-util"
+    "directory": "packages/moonicon-util"
   },
   "license": "MIT"
 }

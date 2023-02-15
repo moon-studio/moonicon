@@ -13,8 +13,8 @@ export default defineComponent({
           {t('home.introduction')}
         </div>
         <div class={styles.address}>
-          Github: https://github.com/moon-studio/moon-icon <br />
-          Download Vue3 code: https://www.npmjs.com/package/@moon-icon/vue3
+          Github: https://github.com/moon-studio/moonicon <br />
+          Download Vue3 code: https://www.npmjs.com/package/@moonicon/vue3
         </div>
       </div>
     )
