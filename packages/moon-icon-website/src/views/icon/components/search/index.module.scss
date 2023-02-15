@@ -1,0 +1,12 @@
+.iconSearch {
+  grid-area: search;
+  justify-self: center;
+  width: 100%;
+  height: 112px;
+  min-width: 240px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  align-items: center;
+  grid-gap: 32px;
+}

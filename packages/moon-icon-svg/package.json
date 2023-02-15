@@ -1,0 +1,17 @@
+{
+  "name": "@moon-icon/svg",
+  "version": "1.0.0",
+  "description": "svg files and basic configure.",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "resources",
+    "files"
+  ],
+  "scripts": {
+    "build:vue3": "ts-node-esm scripts/index.ts"
+  },
+  "repository": {
+    "directory": "packages/moon-icon-svg"
+  }
+}

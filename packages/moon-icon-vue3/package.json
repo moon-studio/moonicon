@@ -1,0 +1,27 @@
+{
+  "name": "@moon-icon/vue3",
+  "version": "1.0.0",
+  "description": "vue3's icon component implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "example": "vite example"
+  },
+  "files": [
+    "components",
+    "types",
+    "src"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^3.2.37"
+  },
+  "repository": {
+    "directory": "packages/moon-icon-vue3"
+  },
+  "dependencies": {
+    "@moon-icon/svg": "workspace:^1.0.0",
+    "@moon-icon/vue3": "workspace:^1.0.0"
+  }
+}

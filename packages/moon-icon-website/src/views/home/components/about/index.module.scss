@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 80px 0;
+
+  .title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 590;
+    font-size: 32px;
+  }
+
+  .introduction {
+    width: 100%;
+    padding: 40px 0 24px 0;
+    text-align: center;
+    font-size: 16px;
+    white-space: pre-wrap;
+  }
+
+  .address {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@moon-studio/website",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build --mode production",
+    "preview": "vite preview",
+    "prettier": "prettier --write \"src/**/*.{vue,ts,tsx}\""
+  },
+  "dependencies": {
+    "@moon-icon/svg": "workspace:^1.0.0",
+    "@moon-icon/vue3": "workspace:^1.0.0",
+    "naive-ui": "^2.34.3",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.27",
+    "pinia-plugin-persistedstate": "^3.0.1",
+    "vue": "^3.2.45",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "typescript-plugin-css-modules": "^4.1.1",
+    "vue-tsc": "^1.0.11"
+  },
+  "repository": {
+    "directory": "packages/moon-icon-website"
+  }
+}

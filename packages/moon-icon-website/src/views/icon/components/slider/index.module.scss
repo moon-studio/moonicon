@@ -1,0 +1,21 @@
+.iconSlider {
+  grid-area: slider;
+  display: flex;
+  flex-direction: column;
+  .iconTypeItem {
+    font-family: 'SF Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #888888;
+    & + .iconTypeItem {
+      margin-top: 8px;
+    }
+    &:hover {
+      transition: all ease 0.2s;
+      cursor: pointer;
+      color: #4343C9;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "strictNullChecks": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "moduleResolution": "Node",
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["node", "vite/client"],
+    "resolveJsonModule": true,
+    "rootDir": "../../",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
