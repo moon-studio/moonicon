@@ -6,7 +6,6 @@ export const useLocalesStore = defineStore({
   state: (): LocalesStore => ({
     locales: 'en_US'
   }),
-  persist: true,
   getters: {
     getLocales(): Locales {
       return this.locales
@@ -16,5 +15,8 @@ export const useLocalesStore = defineStore({
     setLocales(lang: Locales): void {
       this.locales = lang
     }
+  },
+  persist: {
+    storage: sessionStorage
   }
 })

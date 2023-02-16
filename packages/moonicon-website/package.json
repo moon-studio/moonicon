@@ -15,7 +15,7 @@
     "pinia": "^2.0.27",
     "pinia-plugin-persistedstate": "^3.0.1",
     "vue": "^3.2.45",
-    "vue-i18n": "^9.2.2",
+    "vue-i18n": "^9.3.0-beta.16",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {

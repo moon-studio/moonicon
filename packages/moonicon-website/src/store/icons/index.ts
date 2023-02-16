@@ -10,7 +10,6 @@ export const defaultCustomize: Customize = {
 
 export const useIconsStore = defineStore({
   id: 'icons',
-  persist: true,
   state: (): IconsStore => ({
     searchText: '',
     searchType: 'name',
@@ -93,5 +92,8 @@ export const useIconsStore = defineStore({
     pushSelectedIcons(icon: Icon) {
       this.selectedIconsMap[icon.name] = true
     }
+  },
+  persist: {
+    storage: sessionStorage
   }
 })
