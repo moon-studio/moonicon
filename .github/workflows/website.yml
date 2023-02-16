@@ -43,6 +43,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           clean: true
-          ssh-key: ${{ secrets.WEBSITE_ACTION }}
+          token: ${{ secrets.WEBSITE_ACTION }}
           branch: gh-pages
           folder: packages/moonicon-website/dist
