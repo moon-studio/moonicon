@@ -32,6 +32,7 @@ jobs:
       # 执行npm脚本打包项目
       - name: Install and Build
         run: |
+          npm install pnpm -g
           pnpm install
           npm run build:website
       
@@ -40,6 +41,6 @@ jobs:
       - name: Deploy website
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          ACCESS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.WEBSITE_ACTION }}
           BRANCH: gh-pages
           FOLDER: packages/moonicon-website/dist
