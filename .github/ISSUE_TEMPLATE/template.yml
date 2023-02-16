@@ -1,29 +1,32 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Create new issue
+description: Please use this template to create an issue
+title: "[Title]: "
+labels: []
 assignees:
   - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+        Thanks for taking the time to create an issue!
+  - type: dropdown
+    id: issue-type
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: What is the type of issue?
+      options:
+        - Feature Request
+        - Bug
+        - Question
+      value: Feature Request
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      placeholder: Tell us what you see and describe in as much detail as possible!
+      value: ""
     validations:
       required: true
   - type: dropdown
