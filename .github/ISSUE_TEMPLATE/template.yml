@@ -17,7 +17,6 @@ body:
         - Feature Request
         - Bug
         - Question
-      value: Feature Request
     validations:
       required: true
   - type: textarea
@@ -26,7 +25,7 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see and describe in as much detail as possible!
-      value: ""
+      value: "Please start your performance"
     validations:
       required: true
   - type: dropdown
