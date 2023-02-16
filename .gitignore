@@ -21,4 +21,3 @@ packages/moonicon-website/src/csv/*
 .pnpm-debug.log
 
 coverage
-auto-imports.d.ts
