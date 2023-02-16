@@ -15,12 +15,12 @@
     "test-coverage:vue3": "vitest run --coverage packages/moonicon-vue3",
     "test-coverage:util": "vitest run --coverage packages/moonicon-util",
     "example:vue3": "vite packages/moonicon-vue3/example",
-    "website": "vite packages/moonicon-website",
+    "website": "npm run compiler && vite packages/moonicon-website",
     "compiler": "ts-node-esm packages/moonicon-svg/scripts/index.ts",
     "exportJson": "ts-node-esm packages/moonicon-svg/scripts/exportJson.ts",
     "exportCsv": "json2csv -i packages/moonicon-svg/resources/index.json -c packages/moonicon-svg/config/fieldsConfig.json -o packages/moonicon-website/src/csv/out.csv",
     "build": "npm run compiler && vite build",
-    "build:website": "cd packages/moonicon-website && npm run build"
+    "build:website": "npm run compiler && cd packages/moonicon-website && npm run build"
   },
   "repository": {
     "type": "git",
