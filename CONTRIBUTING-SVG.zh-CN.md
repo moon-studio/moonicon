@@ -47,7 +47,7 @@
 
 <div align="center">
     <img src="./images/delete.png" alt="">
-    <p style="font-size: 13px;">例如 Delete 图标下部设置为 2px 的两个圆角</p>
+    <p style="font-size: 13px;">例如 Delete 图标下部设置为 1px 的两个圆角</p>
 </div>
 
 ### 其他

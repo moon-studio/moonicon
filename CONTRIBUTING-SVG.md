@@ -26,9 +26,9 @@ The size range of the outer border of the icon is set to 24 x 24px. This range s
 
 Drawing Method
 
-For most icons, the linear contour method is used to draw the head and corner shape of ** line and select the arc. The default contour thickness is 1.5px. the default color is pure black #000000.
+For most icons, the linear contour method is used to draw the head and corner shape of ** line and select the arc. The default contour thickness is 1.2px. the default color is pure black #000000.
 
-For different scene icons with different sizes, the width of the contour can be adjusted according to the actual visual effect and context. It is recommended to se it at a hierarchical level, for example, the icon contour is corresponding to 16px,24px and 32px are set to 1, 1.5 and 2 px respectively.
+For different scene icons with different sizes, the width of the contour can be adjusted according to the actual visual effect and context. It is recommended to set it at a hierarchical level, for example, the icon contour is corresponding to 16px,24px and 32px are set to 1.2 px respectively.
 
 ### Icon Drawing Detail
 
@@ -44,11 +44,11 @@ The basic shapes of icons can be divided into square, rectangle, rhombus, circle
 
 Filleted Corner Size
 
-In many icons that draw boxes and right angles, in order to increase the affinity of graphics(not too sharp), it is recommended to use 2px filleted corner. Such filleted corners usually appear in larger borders and corners. For the smaller details in the icon and the corners at different angles, the size of the filleted corner can be handled as appropriate.
+In many icons that draw boxes and right angles, in order to increase the affinity of graphics(not too sharp), it is recommended to use 1px filleted corner. Such filleted corners usually appear in larger borders and corners. For the smaller details in the icon and the corners at different angles, the size of the filleted corner can be handled as appropriate.
 
 <div align="center">
     <img src="./images/delete.png" alt="">
-    <p style="font-size: 13px;">For example, the bottom part of DELETE icon is set to 2px filleted corners 
+    <p style="font-size: 13px;">For example, the bottom part of DELETE icon is set to 1px filleted corners 
     </p>
 </div>
 
