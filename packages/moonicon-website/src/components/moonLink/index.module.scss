@@ -1,0 +1,26 @@
+.moonLink {
+  font-family: 'SF Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+  cursor: pointer;
+  transition: all ease 0.12s;
+  &:hover {
+    color: #4343c9;
+  }
+
+  &.disabledLink span {
+    text-decoration-line: line-through;
+    text-decoration-color: #888888;
+    text-underline-offset: -50%;
+  }
+  &.disabledLink:hover {
+    color: #888888;
+  }
+
+  &.verticalLink + .verticalLink {
+    margin-top: 8px;
+  }
+}

@@ -1,5 +1,6 @@
 import { NGi, NGrid } from 'naive-ui'
 import styles from './index.module.scss'
+import MoonLink from '@/components/moonLink'
 
 export default defineComponent({
   name: 'Footer',
@@ -22,13 +23,16 @@ export default defineComponent({
             <div class={styles.content}>
               <div class={styles.info}>Design Document</div>
               <div class={styles.info}>NPM Address</div>
-              <div class={styles.info}>GitHub</div>
+              <MoonLink label={'GitHub'}></MoonLink>
             </div>
           </NGi>
           <NGi>
             <div class={styles.title}>Follow us</div>
             <div class={styles.content}>
-              <div class={styles.info}>GitHub</div>
+              <MoonLink
+                address={'https://github.com/moon-studio'}
+                label={'GitHub'}
+              ></MoonLink>
             </div>
           </NGi>
           <NGi>

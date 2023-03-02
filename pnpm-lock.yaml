@@ -54,8 +54,8 @@ importers:
       '@moonicon/vue3': workspace:^1.0.0
       vue: ^3.2.37
     dependencies:
-      '@moonicon/svg': link:../moonicon-svg
-      '@moonicon/vue3': 'link:'
+      '@moonicon/svg': moonLink:../moonicon-svg
+      '@moonicon/vue3': 'moonLink:'
     devDependencies:
       vue: 3.2.47
 
@@ -2064,6 +2064,7 @@ packages:
 
   /graceful-fs/4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
+    requiresBuild: true
     dev: true
 
   /grapheme-splitter/1.0.4:
