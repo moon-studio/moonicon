@@ -54,8 +54,8 @@ importers:
       '@moonicon/vue3': workspace:^1.0.0
       vue: ^3.2.37
     dependencies:
-      '@moonicon/svg': moonLink:../moonicon-svg
-      '@moonicon/vue3': 'moonLink:'
+      '@moonicon/svg': link:../moonicon-svg
+      '@moonicon/vue3': 'link:'
     devDependencies:
       vue: 3.2.47
 
