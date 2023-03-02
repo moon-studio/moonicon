@@ -7,7 +7,9 @@ export default {
   },
   icon: {
     searchPlaceholder: '输入关键词搜索',
-    onlySelected: '仅显示选中'
+    onlySelected: '仅显示选中',
+    emptyMessage: '如果您需要定制，请随时告诉我们',
+    request: '发送请求'
   },
   customize: {
     reset: '恢复默认配置',

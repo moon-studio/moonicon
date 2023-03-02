@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue'
 import styles from './index.module.scss'
 import { NDivider, NMenu, NButton } from 'naive-ui'
-import { getImageUrl } from '../../../utils/common'
+import { getImageUrl } from '@/utils/common'
 import { RouterLink } from 'vue-router'
 import router from '../../../router'
 import { useI18n } from 'vue-i18n'

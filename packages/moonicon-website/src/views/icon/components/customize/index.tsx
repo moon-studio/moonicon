@@ -91,13 +91,6 @@ export default defineComponent({
                   ? ''
                   : this.customizeStrokeWidth + 'px'}
               </div>
-              {/*<NInputNumber*/}
-              {/*  min={0.4}*/}
-              {/*  max={4}*/}
-              {/*  step={0.1}*/}
-              {/*  v-model={[this.customizeStrokeWidth, 'value']}*/}
-              {/*  format={(val) => (val === null ? '' : val + 'px')}*/}
-              {/*></NInputNumber>*/}
             </div>
           </NFormItem>
           <NFormItem

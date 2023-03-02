@@ -7,7 +7,7 @@ export default defineComponent({
   render() {
     return (
       <div class={styles.iconDownload}>
-        <NButton class='m-block' size='large' ghost={true} type='primary'>
+        <NButton class='m-block' type={'primary'} size='large'>
           Download SVG
         </NButton>
       </div>

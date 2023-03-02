@@ -7,7 +7,9 @@ export default {
   },
   icon: {
     searchPlaceholder: 'Enter keyword to search',
-    onlySelected: 'Show only selected'
+    onlySelected: 'Show only selected',
+    emptyMessage: 'If you need private custom, Please feel free to tell us',
+    request: 'Request'
   },
   customize: {
     reset: 'Restore default',
