@@ -68,7 +68,6 @@ const v3ComponentTemplate = (filename: string, shapeStr: string) => {
 }
 
 const checkOutputDir = (filename: string, template: string) => {
-  filename = toUpperCaseCamelCase(filename)
   if (fs.existsSync(svgComponentsFilePath)) {
     writeV3Components(filename, template)
   } else {
@@ -105,10 +104,11 @@ const readSvgFiles = () => {
       fs.readFile(f, (err, data) => {
         if (err) return console.error(err)
 
-        const filename = f
+        const filename = toUpperCaseCamelCase(f
           .split('.svg')[0]
           .split(/[\/\\]/)
-          .pop()
+          .pop())
+
         // 将svg文件转换为字符串
         const svgStr = data.toString()
         // 创建一个形状标签数组
