@@ -25,45 +25,44 @@ const toUpperCaseCamelCase = (str: string): string => {
 }
 
 const v3ComponentTemplate = (filename: string, shapeStr: string) => {
-  return `
-    import { defineComponent, h } from 'vue'
-    import type { PropType } from 'vue'
+  return `import { defineComponent, h } from 'vue'
+import type { PropType } from 'vue'
+
+const props = {
+  // fill color
+  fill: {
+    type: String as PropType<string>,
+    default: '#fff'
+  },
+  // stroke color
+  stroke: {
+    type: String as PropType<string>,
+    default: '#333'
+  },
+  // recommended value 1.2
+  strokeWidth: {
+    type: [Number, String] as PropType<number | string>,
+    default: 1.2
+  }
+}
+
+const ${filename} = defineComponent({
+  name: '${filename}',
+  props,
+  render() {
+    const $props = this.$props
     
-    const props = {
-      // fill color
-      fill: {
-        type: String as PropType<string>,
-        default: '#fff'
-      },
-      // stroke color
-      stroke: {
-        type: String as PropType<string>,
-        default: '#333'
-      },
-      // recommended value 1.2
-      strokeWidth: {
-        type: [Number, String] as PropType<number | string>,
-        default: 1.2
-      }
-    }
-    
-    const ${filename} = defineComponent({
-      name: '${filename}',
-      props,
-      render() {
-        const $props = this.$props
-        
-        return h(
-          <defs>
-            <g id="${filename}">
-              ${shapeStr}
-            </g>
-          </defs>
-        )
-      }
-    })
-    
-    export { ${filename} }
+    return h(
+      <defs>
+        <g id="${filename}">
+          ${shapeStr}
+        </g>
+      </defs>
+    )
+  }
+})
+
+export { ${filename} }
   `
 }
 
@@ -104,10 +103,12 @@ const readSvgFiles = () => {
       fs.readFile(f, (err, data) => {
         if (err) return console.error(err)
 
-        const filename = toUpperCaseCamelCase(f
-          .split('.svg')[0]
-          .split(/[\/\\]/)
-          .pop())
+        const filename = toUpperCaseCamelCase(
+          f
+            .split('.svg')[0]
+            .split(/[\/\\]/)
+            .pop()
+        )
 
         // 将svg文件转换为字符串
         const svgStr = data.toString()
@@ -153,15 +154,15 @@ const readSvgFiles = () => {
           shapeObj[key].forEach((item: string, index: number) => {
             shapeObj[key][index] = item.replace(
               /fill="[\s\S]+?"/g,
-              'fill="{$props.fill}"'
+              'fill={$props.fill}'
             )
             shapeObj[key][index] = shapeObj[key][index].replace(
               /stroke="[\s\S]+?"/g,
-              'stroke="{$props.stroke}"'
+              'stroke={$props.stroke}'
             )
             shapeObj[key][index] = shapeObj[key][index].replace(
               /stroke-width="[\s\S]+?"/g,
-              'stroke-width="{$props.strokeWidth}"'
+              'stroke-width={$props.strokeWidth}'
             )
           })
         }
