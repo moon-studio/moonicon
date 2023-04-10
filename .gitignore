@@ -14,7 +14,6 @@ packages/*/node_modules
 packages/*/.temp
 packages/*/.cache
 moonicon
-!packages/moonicon-vue3/components/*
 packages/moonicon-svg/resources/*
 !packages/moonicon-svg/resources/index.json
 packages/moonicon-website/src/csv/*
