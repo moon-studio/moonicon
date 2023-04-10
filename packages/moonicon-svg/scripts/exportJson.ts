@@ -7,11 +7,26 @@ const svgFilePath = path.resolve(
     ? 'packages/moonicon-svg/files/'
     : './files/'
 )
+// 文件名称转大写驼峰
+const toUpperCaseCamelCase = (str: string): string => {
+  return str
+    .replace(/[-\s]+/g, ' ') // 把连续的空格或短横线替换成一个空格
+    .split(' ') // 以空格为分隔符将字符串分割成单词数组
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1)) // 将每个单词的首字母大写
+    .join('') // 将单词数组合并成一个字符串
+}
+
+type IconInfo = {
+  name: string
+  classification: string
+  tag: string[]
+  description: string
+}
 
 const checkOutputDir = () => {
   const jsonTemp = svgPathList.map((value) => {
     return {
-      name: path.basename(value, '.svg'),
+      name: toUpperCaseCamelCase(path.basename(value, '.svg')),
       classification: path.basename(path.dirname(path.dirname(value))),
       tag: [],
       description: ''
@@ -32,8 +47,8 @@ const checkOutputDir = () => {
     )
   } else {
     const iconMap: Record<string, boolean> = {}
-    const icons: typeof jsonData = [...jsonData, ...jsonTemp].reduce(
-      (iconArr: typeof jsonData, icon) => {
+    const icons: IconInfo[] = [...jsonData, ...jsonTemp].reduce(
+      (iconArr: IconInfo[], icon: IconInfo) => {
         if (!iconMap[icon.name]) {
           iconMap[icon.name] = true
           iconArr.push(icon)
@@ -72,7 +87,7 @@ const getSvgPathList = (svgFilePath: any) => {
 }
 
 const readSvgFiles = () => {
-  fs.readdir(svgFilePath, (err, files) => {
+  fs.readdir(svgFilePath, (err) => {
     if (err) return console.error(err)
 
     getSvgPathList(svgFilePath)

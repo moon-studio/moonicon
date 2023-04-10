@@ -1,6 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { green, red, yellow } from 'kolorist'
+
 const filename = fileURLToPath(import.meta.url)
 const _dirname = path.dirname(filename)
 
@@ -15,9 +17,11 @@ const svgComponentsFilePath = path.resolve(
     : path.join(_dirname, '../../moonicon-vue3/components/')
 )
 
-// 已处理文件 map，避免重名文件处理
-const processedFilesMap = new Map()
-
+const DynamicPropertiesRegs = [
+  { name: 'fill', reg: /fill="[\s\S]+?"/g },
+  { name: 'stroke', reg: /stroke="[\s\S]+?"/g },
+  { name: 'strokeWidth', reg: /stroke-width="[\s\S]+?"/g }
+]
 // vue 3 组件模板
 const v3ComponentTemplate = (filename: string, shapeStr: string) => {
   return `import { defineComponent, h } from 'vue'
@@ -60,6 +64,12 @@ const ${filename} = defineComponent({
 export { ${filename} }
   `
 }
+
+const svgPathList: any[] = []
+// 已处理文件 map，避免重名文件处理
+const processedFilesMap = new Map()
+const processedErrorFiles: Record<string, any> = {}
+
 // 文件名称转大写驼峰
 const toUpperCaseCamelCase = (str: string): string => {
   return str
@@ -69,18 +79,31 @@ const toUpperCaseCamelCase = (str: string): string => {
     .join('') // 将单词数组合并成一个字符串
 }
 
+// 同步文件写入
 const checkOutputDir = (filename: string, template: string) => {
-  if (fs.existsSync(svgComponentsFilePath)) {
+  try {
+    !fs.existsSync(svgComponentsFilePath) && fs.mkdirSync(svgComponentsFilePath)
     writeV3Components(filename, template)
-  } else {
-    fs.mkdir(svgComponentsFilePath, (err) => {
-      if (err) return console.error(err)
-      writeV3Components(filename, template)
-    })
+  } catch (e) {
+    console.log(e)
   }
 }
+//
+const propToDynamicProp = (str: string): string => {
+  for (const { name, reg } of DynamicPropertiesRegs) {
+    str = str.replace(reg, `${name}={$props.${name}}`)
+  }
+  return str
+}
 
-const svgPathList: any[] = []
+const consoleErrorFiles = () => {
+  for (const key in processedErrorFiles) {
+    console.log(red(processedErrorFiles[key].title))
+    processedErrorFiles[key].paths.forEach((p: string) =>
+      console.log(yellow(p))
+    )
+  }
+}
 
 // 获取files文件下所有的svg文件路径
 const getSvgPathList = (svgFilePath: any) => {
@@ -102,18 +125,22 @@ const readSvgFiles = () => {
     getSvgPathList(svgFilePath)
 
     svgPathList.forEach((f) => {
-      fs.readFile(f, (err, data) => {
-        if (err) return console.error(err)
-
+      try {
+        const data = fs.readFileSync(f)
         const file = f.split(/[\/\\]/).pop()
         const filename = toUpperCaseCamelCase(file.split('.svg')[0])
 
+        // 错误处理
         if (processedFilesMap.has(filename)) {
-          return console.error(
-            `文件${filename}已处理，此时可能存在重名文件，请检查路径：\n ${processedFilesMap.get(
-              filename
-            )}\n ${f}`
-          )
+          if (!processedErrorFiles[filename]) {
+            processedErrorFiles[filename] = {
+              title: `文件${filename}已处理，此时可能存在重名文件，请检查路径`,
+              paths: [processedFilesMap.get(filename), f]
+            }
+          } else {
+            processedErrorFiles[filename].paths.push(f)
+          }
+          return
         }
         processedFilesMap.set(filename, f)
 
@@ -159,40 +186,38 @@ const readSvgFiles = () => {
         // 将形状标签数组对象中的形状标签转换为动态属性
         for (const key in shapeObj) {
           shapeObj[key].forEach((item: string, index: number) => {
-            shapeObj[key][index] = item.replace(
-              /fill="[\s\S]+?"/g,
-              'fill={$props.fill}'
-            )
-            shapeObj[key][index] = shapeObj[key][index].replace(
-              /stroke="[\s\S]+?"/g,
-              'stroke={$props.stroke}'
-            )
-            shapeObj[key][index] = shapeObj[key][index].replace(
-              /stroke-width="[\s\S]+?"/g,
-              'stroke-width={$props.strokeWidth}'
-            )
+            shapeObj[key][index] = propToDynamicProp(item)
+            // shapeObj[key][index] = item.replace(
+            //   /fill="[\s\S]+?"/g,
+            //   'fill={$props.fill}'
+            // )
           })
         }
 
         // 解构shapeObj并拼接成字符串
         const shapeStr = Object.keys(shapeObj)
-          .map((key) => {
-            return shapeObj[key].join('')
-          })
+          .map((key) => shapeObj[key].join('\n'))
           .join('')
 
-        const template = path && v3ComponentTemplate(filename, shapeStr)
+        const template = shapeStr && v3ComponentTemplate(filename, shapeStr)
         template && checkOutputDir(filename, template)
-      })
+      } catch (e) {
+        console.log(red('Read File Error'), f, e)
+      }
     })
+
+    consoleErrorFiles()
   })
 }
 
 const writeV3Components = (filename: string, template: string) => {
   const fileOutputPath = path.resolve(svgComponentsFilePath, `${filename}.tsx`)
-  fs.writeFile(fileOutputPath, template, (err) => {
-    if (err) return console.error(filename + ' transform error: ' + err)
-  })
+  try {
+    fs.writeFileSync(fileOutputPath, template)
+    console.log(green(`Vue 3 Component processed: ${filename}`))
+  } catch (e) {
+    console.log(red('Read File Error'), filename + ' transform error: ' + e)
+  }
 }
 
 const svgToV3Components = () => {
