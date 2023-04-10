@@ -16,7 +16,7 @@
     "test-coverage:util": "vitest run --coverage packages/moonicon-util",
     "example:vue3": "vite packages/moonicon-vue3/example",
     "website": "npm run compiler && npm run exportJson && vite packages/moonicon-website",
-    "compiler": "ts-node-esm packages/moonicon-svg/scripts/index.ts",
+    "compiler": "ts-node-esm --experimental-specifier-resolution=node packages/moonicon-svg/scripts/index.ts",
     "exportJson": "ts-node-esm packages/moonicon-svg/scripts/exportJson.ts",
     "exportCsv": "json2csv -i packages/moonicon-svg/resources/index.json -c packages/moonicon-svg/config/fieldsConfig.json -o packages/moonicon-website/src/csv/out.csv",
     "build": "npm run compiler && vite build",

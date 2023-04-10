@@ -8,9 +8,9 @@ import AutoImport from 'unplugin-auto-import/vite'
 export default defineConfig({
   resolve: {
     alias: {
-      '@moon-form/svg': resolve(__dirname, 'packages/moon-form-svg'),
-      '@moon-form/vue': resolve(__dirname, 'packages/moon-form-vue'),
-      '@moon-form/util': resolve(__dirname, 'packages/moon-form-util')
+      '@moonicon/svg': resolve(__dirname, 'packages/moonicon-svg'),
+      '@moonicon/vue': resolve(__dirname, 'packages/moonicon-vue'),
+      '@moonicon/util': resolve(__dirname, 'packages/moonicon-util')
     }
   },
   plugins: [

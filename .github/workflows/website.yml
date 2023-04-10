@@ -33,8 +33,7 @@ jobs:
       # 执行npm脚本打包项目
       - name: Install and Build
         run: |
-          npm install pnpm -g
-          pnpm install
+          pnpm install --fix-lockfile
           npm run build:website
       
 

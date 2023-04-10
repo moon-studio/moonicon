@@ -2764,5 +2764,17 @@
 		"classification": "weather-meteorology",
 		"tag": [],
 		"description": ""
+	},
+	{
+		"name": "ShuffleOne",
+		"classification": "arrow",
+		"tag": [],
+		"description": ""
+	},
+	{
+		"name": "ShuffleTwo",
+		"classification": "multimedia",
+		"tag": [],
+		"description": ""
 	}
 ]
