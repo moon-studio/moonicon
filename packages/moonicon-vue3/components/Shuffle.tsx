@@ -28,15 +28,7 @@ const Shuffle = defineComponent({
     return h(
       <defs>
         <g id="Shuffle">
-          <path d="M19.4481 7.80461H17.2336C12.2509 7.80461 11.6972 16.42 4.5 16.42M19.4481 7.80461L17.2336 5.65077M19.4481 7.80461L17.2336 9.95846" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M19.4481 16.2692H17.2336C12.2509 16.2692 11.6972 7.65384 4.5 7.65384M19.4481 16.2692L17.2336 18.4231M19.4481 16.2692L17.2336 14.1154" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-      </defs>
-    )
-  }
-})
-
-export { Shuffle }
-  nd"/><path d="M14.75 3.75H20.25V9.25" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3.75 3.75L9.40008 9.40008" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M14.75 14.75L20.25 20.25" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M20.25 14.75V20.25H14.75" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M3.75 20.25L20.25 3.75" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M14.75 3.75H20.25V9.25" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
         </g>
       </defs>
     )

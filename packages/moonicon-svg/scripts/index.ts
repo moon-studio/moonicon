@@ -9,21 +9,16 @@ const svgFilePath = path.resolve(
     ? 'packages/moonicon-svg/files/'
     : './files/'
 )
-
 const svgComponentsFilePath = path.resolve(
   process.env.npm_lifecycle_event === 'compiler'
     ? 'packages/moonicon-vue3/components/'
     : path.join(_dirname, '../../moonicon-vue3/components/')
 )
 
-const toUpperCaseCamelCase = (str: string): string => {
-  return str
-    .replace(/[-\s]+/g, ' ') // 把连续的空格或短横线替换成一个空格
-    .split(' ') // 以空格为分隔符将字符串分割成单词数组
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1)) // 将每个单词的首字母大写
-    .join('') // 将单词数组合并成一个字符串
-}
+// 已处理文件 map，避免重名文件处理
+const processedFilesMap = new Map()
 
+// vue 3 组件模板
 const v3ComponentTemplate = (filename: string, shapeStr: string) => {
   return `import { defineComponent, h } from 'vue'
 import type { PropType } from 'vue'
@@ -65,6 +60,14 @@ const ${filename} = defineComponent({
 export { ${filename} }
   `
 }
+// 文件名称转大写驼峰
+const toUpperCaseCamelCase = (str: string): string => {
+  return str
+    .replace(/[-\s]+/g, ' ') // 把连续的空格或短横线替换成一个空格
+    .split(' ') // 以空格为分隔符将字符串分割成单词数组
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1)) // 将每个单词的首字母大写
+    .join('') // 将单词数组合并成一个字符串
+}
 
 const checkOutputDir = (filename: string, template: string) => {
   if (fs.existsSync(svgComponentsFilePath)) {
@@ -72,7 +75,6 @@ const checkOutputDir = (filename: string, template: string) => {
   } else {
     fs.mkdir(svgComponentsFilePath, (err) => {
       if (err) return console.error(err)
-
       writeV3Components(filename, template)
     })
   }
@@ -94,7 +96,7 @@ const getSvgPathList = (svgFilePath: any) => {
 }
 
 const readSvgFiles = () => {
-  fs.readdir(svgFilePath, (err, files) => {
+  fs.readdir(svgFilePath, (err) => {
     if (err) return console.error(err)
 
     getSvgPathList(svgFilePath)
@@ -103,12 +105,17 @@ const readSvgFiles = () => {
       fs.readFile(f, (err, data) => {
         if (err) return console.error(err)
 
-        const filename = toUpperCaseCamelCase(
-          f
-            .split('.svg')[0]
-            .split(/[\/\\]/)
-            .pop()
-        )
+        const file = f.split(/[\/\\]/).pop()
+        const filename = toUpperCaseCamelCase(file.split('.svg')[0])
+
+        if (processedFilesMap.has(filename)) {
+          return console.error(
+            `文件${filename}已处理，此时可能存在重名文件，请检查路径：\n ${processedFilesMap.get(
+              filename
+            )}\n ${f}`
+          )
+        }
+        processedFilesMap.set(filename, f)
 
         // 将svg文件转换为字符串
         const svgStr = data.toString()
