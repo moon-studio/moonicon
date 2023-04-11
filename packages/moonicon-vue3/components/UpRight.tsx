@@ -28,9 +28,7 @@ const UpRight = defineComponent({
     return h(
       <defs>
         <g id="UpRight">
-          <path d="M5 19L19 5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 16V5H8" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
+          <path d="M5 19L19 5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M19 16V5H8" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
         </g>
       </defs>
     )

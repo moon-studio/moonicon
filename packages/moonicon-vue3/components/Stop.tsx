@@ -29,7 +29,6 @@ const Stop = defineComponent({
       <defs>
         <g id="Stop">
           <path d="M6 17V7C6 6.44772 6.44772 6 7 6H17C17.5523 6 18 6.44772 18 7V17C18 17.5523 17.5523 18 17 18H7C6.44772 18 6 17.5523 6 17Z" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-
         </g>
       </defs>
     )

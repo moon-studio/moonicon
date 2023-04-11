@@ -28,9 +28,7 @@ const DownLeft = defineComponent({
     return h(
       <defs>
         <g id="DownLeft">
-          <path d="M19 5L5 19" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 8V19H16" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
+          <path d="M19 5L5 19" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M5 8V19H16" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
         </g>
       </defs>
     )

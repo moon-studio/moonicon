@@ -28,13 +28,7 @@ const SettingThree = defineComponent({
     return h(
       <defs>
         <g id="SettingThree">
-          <path d="M14.5 4V6M14.5 8V6M14.5 6H3.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-<path d="M17 6H19.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-<path d="M8.5 14V12M8.5 10V12M8.5 12L19.5 12" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-<path d="M6 12H3.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-<path d="M14.5 16V18M14.5 20V18M14.5 18H3.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-<path d="M17 18H19.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-
+          <path d="M14.5 4V6M14.5 8V6M14.5 6H3.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/><path d="M17 6H19.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/><path d="M8.5 14V12M8.5 10V12M8.5 12L19.5 12" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/><path d="M6 12H3.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/><path d="M14.5 16V18M14.5 20V18M14.5 18H3.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/><path d="M17 18H19.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
         </g>
       </defs>
     )

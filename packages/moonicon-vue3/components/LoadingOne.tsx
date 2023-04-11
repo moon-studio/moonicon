@@ -29,7 +29,6 @@ const LoadingOne = defineComponent({
       <defs>
         <g id="LoadingOne">
           <path d="M20.3334 12C20.3334 16.6023 16.6024 20.3333 12 20.3333C7.39767 20.3333 3.66671 16.6023 3.66671 12C3.66671 7.39758 7.39767 3.66663 12 3.66663" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="bevel"/>
-
         </g>
       </defs>
     )

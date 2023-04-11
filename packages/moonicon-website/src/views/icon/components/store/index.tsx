@@ -5,9 +5,8 @@ import { computed } from 'vue'
 import MIcon from '@moonicon/vue3/src'
 import { Icon } from '@/store/icons/types'
 import { getImageUrl } from '@/utils/common'
-import router from '@/router'
 import { useI18n } from 'vue-i18n'
-import {NButton} from "naive-ui";
+import { NButton } from 'naive-ui'
 
 export default defineComponent({
   name: 'Store',

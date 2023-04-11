@@ -28,9 +28,7 @@ const Add = defineComponent({
     return h(
       <defs>
         <g id="Add">
-          <path d="M4 12L20 12" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-<path d="M12 4L12 20" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
-
+          <path d="M4 12L20 12" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/><path d="M12 4L12 20" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round"/>
         </g>
       </defs>
     )

@@ -28,9 +28,7 @@ const PauseOne = defineComponent({
     return h(
       <defs>
         <g id="PauseOne">
-          <path d="M9 5.64999V18.32" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 5.64999V18.32" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
+          <path d="M9 5.64999V18.32" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M15 5.64999V18.32" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
         </g>
       </defs>
     )

@@ -2,2779 +2,2773 @@
 	{
 		"name": "AscOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "AscTwo",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CarestShort",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ChevronDown",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ChevronLeft",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ChevronRight",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ChevronsDown",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ChevronsLeft",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ChevronsRight",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ChevronsUp",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ChevronUp",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CircleDown",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CircleLeft",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CircleRight",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CircleUp",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CornerDownLeft",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CornerDownRight",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CornerLeftDown",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CornerLeftUp",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CornerRightDown",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CornerRightUp",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CornerUpLeft",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "CornerUpRight",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DescOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DescTwo",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "Down",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DownLeft",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DownloadFive",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DownloadFour",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DownloadOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DownloadThree",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DownloadTwo",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "DownRight",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "Left",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "LogInOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "LogInTwo",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "LogOutOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "LogOutTwo",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "MaxmizeOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "MaxmizeTwo",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "MinimizeOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "MinimizeTwo",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "Move",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "RefreshFive",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "RefreshFour",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "RefreshOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "RefreshSix",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "RefreshThree",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "RefreshTwo",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "Right",
 		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Shuffle",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SortOne",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SortTwo",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SwapHorizontal",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SwapVertical",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ThickDown",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ThickLeft",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ThickRight",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ThickUp",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TrendingDown",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TrendingUp",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Up",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "UpLeft",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "UpRight",
-		"classification": "arrow",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Add",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CloseLock",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Delete",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Edit",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Female",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "FingerPrint",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "List",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LoadingOne",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LoadingThree",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LoadingTwo",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Local",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Male",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Menu",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MoreOne",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MoreTwo",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "OpenLock",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Search",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SettingFive",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SettingFour",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SettingOne",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SettingSix",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SettingThree",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SettingTwo",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShareFive",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShareFour",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShareOne",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShareThree",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShareTwo",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Tag",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "View",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ZoomIn",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ZoomOut",
-		"classification": "basic",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Chrome",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DingTalk",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Discord",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Facebook",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "GitHub",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "QQ",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Slack",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Spotify",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Steam",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Taobao",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TED",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Telegram",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TikTok",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Twitter",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "WeChat",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "WeCom",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "YouTube",
-		"classification": "brand-logo",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BachelorCap",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Backpack",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BarOne",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BarThree",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BarTwo",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BaseballCap",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Belt",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Boots",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Bow",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BriefcaseOne",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BriefcaseTwo",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BucketHat",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Cardigan",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ChefHat",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CottonShoes",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CrownHat",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Dress",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "FeltHat",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "FlatShoes",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Gloves",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Handbag",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Hanfu",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "HighHeel",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Hoodie",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LongTShirt",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MagicHat",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MiniSkirt",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Necktie",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Overcoat",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PantiesOne",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PantiesThree",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PantiesTwo",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Shorts",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShoulderBag",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Skirt",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SlippersOne",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SlippersTwo",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Socks",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "StrawHat",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Suit",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Sweatpants",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Swimsuit",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TShirt",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Trousers",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Trunk",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "VestOne",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "VestTwo",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Windbreaker",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "WizardHat",
-		"classification": "clothing",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BlockMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BlockMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BlockMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BlockMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CallPhone",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DeleteMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DeleteMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DeleteMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DeleteMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DownloadMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DownloadMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DownloadMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DownloadMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ErrorMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ErrorMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ErrorMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ErrorMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ForwardMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ForwardMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ForwardMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ForwardMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ForwardPhone",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "IncomingPhone",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageEight",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageEleven",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageFive",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageNine",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageSeven",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageSix",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageTen",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageTwelve",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MissedPhone",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Phone",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PhoneOff",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PushMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PushMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PushMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PushMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ReceiveMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ReceiveMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ReceiveMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ReceiveMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SendMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SendMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SendMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SendMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SuccessMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SuccessMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SuccessMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SuccessMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TimedMessageFour",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TimedMessageOne",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TimedMessageThree",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TimedMessageTwo",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Topic",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Voicemail",
-		"classification": "communication",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Database",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DM",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Elasticsearch",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Hive",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "InfluxDB",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MongoDB",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MySQL",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Oracle",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PostgreSQL",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Redis",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SQL",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SQLSever",
-		"classification": "computer-technology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "AddFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "AddFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "AudioFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "AudioFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BlockEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BookOne",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BookTwo",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BulletinBoard",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CCEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Clipboard",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CodeFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CodeFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CollectFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CollectFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ConfigurationFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Copy",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DeleteEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DeleteFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DeleteFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DOCFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DownloadEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "DownloadPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "EditEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "EditFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "EditPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Email",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "EmailAttachment",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "EncryptedFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "EncryptedFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Envelope",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ErrorEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ErrorFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "File",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Foloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ForwardEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ForwardPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "GIFFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "HiddenFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "HiddenFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Inbox",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "IncomingEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "IncomingPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LinkPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LockEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LockPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PDFFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Picture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PPTFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PushEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PushPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "QuestionFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ReadEmailOne",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ReadEmailThree",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ReadEmailTwo",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SecurityEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SendEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SendPicture",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShowFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShowFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "StaffCard",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SuccessEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TimedEmail",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "TXTFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "VideoFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "VideoFoloder",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "XLSFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ZIPFile",
-		"classification": "document-file",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Bankcard",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Barcode",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Camera",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CameraOff",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Collect",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Coupon",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CurrencyExchange",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Customer",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Dislike",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Filter",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Footsteps",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Home",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Like",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LinkOne",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Order",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "QRCodeOne",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "QRCodeThree",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "QRCodeTwo",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Refund",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ScanCode",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShoppingBag",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ShoppingCart",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Store",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Subscription",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Wallet",
-		"classification": "e-commerce",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Apple",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Avocado",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Banana",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Barbecue",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BroadBean",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Cake",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Candy",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Carrot",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Cheese",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Cherry",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Chili",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Cole",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Donut",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Egg",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Eggplant",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Garlic",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Hamburger",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "IceCream",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Lemon",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Lollipop",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Orange",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Peach",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Pear",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Pineapple",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Pizza",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Pod",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Popcorn",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Sandwich",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Scallion",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Tomato",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Watermalon",
-		"classification": "kitchen-food",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Abdomen",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Anesthesiology",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Bandage",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "BloodTransfusion",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Bone",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Brain",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Buttocks",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Dermatology",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "EmergencyDepartment",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "FemaleChest",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Germs",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Heart",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Laboratory",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Liver",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Lung",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MaleChest",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Neural",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Nose",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "NutritionAndHealthDepartment",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "OperatingRoom",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Physiotherapy",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PregnantWoman",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Radiology",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Renal",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Tooth",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Uterus",
-		"classification": "medical-health",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Film",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "HDR",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Loop",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Mic",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MicOff",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Music",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Next",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PauseOne",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PauseTwo",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PlayOne",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PlayTwo",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PlayBack",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PlayForward",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Previous",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Resume",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SpeakerLoud",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SpeakerModerate",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SpeakerOff",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SpeakerQuite",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Stop",
-		"classification": "multimedia",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "AddressBook",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ErrorUser",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "IDCard",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "MinusUser",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Passport",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PeopleFour",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PeopleOne",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PeopleThree",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PeopleTwo",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "PlusUser",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SearchUser",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SuccessUser",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "UserOne",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "UserThree",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "UserTwo",
-		"classification": "user-group",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Blizzard",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Celsius",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CloudyOne",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CloudyTwo",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CloudyDaytimeOne",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "CloudyDaytimeTwo",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Fahrenheit",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Fog",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Hail",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "HeavyRain",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "HeavySnow",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Lightning",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LightRain",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "LightSnow",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ModerateRain",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "ModerateSnow",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Moon",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "RainFreezing",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "RainShower",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Rainstorm",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Sandstorm",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Sleet",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Smog",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Snowflake",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "SnowShower",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Sun",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Sunrise",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Sunset",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Thunderstorm",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Tornado",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "Typhoon",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "WindOne",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "WindThree",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "WindTwo",
-		"classification": "weather-meteorology",
-		"tag": [],
-		"description": ""
-	},
-	{
-		"name": "WindDirection",
-		"classification": "weather-meteorology",
-		"tag": [],
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ShuffleOne",
 		"classification": "arrow",
-		"tag": [],
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SortOne",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SortTwo",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SwapHorizontal",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SwapVertical",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ThickDown",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ThickLeft",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ThickRight",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ThickUp",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TrendingDown",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TrendingUp",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Up",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "UpLeft",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "UpRight",
+		"classification": "arrow",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Add",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CloseLock",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Delete",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Edit",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Female",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "FingerPrint",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "List",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LoadingOne",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LoadingThree",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LoadingTwo",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Local",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Male",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Menu",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MoreOne",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MoreTwo",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "OpenLock",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Search",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SettingFive",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SettingFour",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SettingOne",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SettingSix",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SettingThree",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SettingTwo",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShareFive",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShareFour",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShareOne",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShareThree",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShareTwo",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Tag",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "View",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ZoomIn",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ZoomOut",
+		"classification": "basic",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Chrome",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DingTalk",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Discord",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Facebook",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "GitHub",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "QQ",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Slack",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Spotify",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Steam",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Taobao",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TED",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Telegram",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TikTok",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Twitter",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "WeChat",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "WeCom",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "YouTube",
+		"classification": "brand-logo",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BachelorCap",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Backpack",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BarOne",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BarThree",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BarTwo",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BaseballCap",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Belt",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Boots",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Bow",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BriefcaseOne",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BriefcaseTwo",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BucketHat",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Cardigan",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ChefHat",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CottonShoes",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CrownHat",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Dress",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "FeltHat",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "FlatShoes",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Gloves",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Handbag",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Hanfu",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "HighHeel",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Hoodie",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LongTShirt",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MagicHat",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MiniSkirt",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Necktie",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Overcoat",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PantiesOne",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PantiesThree",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PantiesTwo",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Shorts",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShoulderBag",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Skirt",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SlippersOne",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SlippersTwo",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Socks",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "StrawHat",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Suit",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Sweatpants",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Swimsuit",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TShirt",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Trousers",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Trunk",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "VestOne",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "VestTwo",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Windbreaker",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "WizardHat",
+		"classification": "clothing",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BlockMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BlockMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BlockMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BlockMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CallPhone",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DeleteMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DeleteMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DeleteMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DeleteMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DownloadMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DownloadMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DownloadMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DownloadMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ErrorMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ErrorMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ErrorMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ErrorMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ForwardMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ForwardMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ForwardMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ForwardMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ForwardPhone",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "IncomingPhone",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageEight",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageEleven",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageFive",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageNine",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageSeven",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageSix",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageTen",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageTwelve",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MissedPhone",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Phone",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PhoneOff",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PushMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PushMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PushMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PushMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ReceiveMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ReceiveMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ReceiveMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ReceiveMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SendMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SendMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SendMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SendMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SuccessMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SuccessMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SuccessMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SuccessMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TimedMessageFour",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TimedMessageOne",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TimedMessageThree",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TimedMessageTwo",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Topic",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Voicemail",
+		"classification": "communication",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Database",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DM",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Elasticsearch",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Hive",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "InfluxDB",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MongoDB",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MySQL",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Oracle",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PostgreSQL",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Redis",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SQL",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SQLSever",
+		"classification": "computer-technology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "AddFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "AddFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "AudioFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "AudioFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BlockEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BookOne",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BookTwo",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BulletinBoard",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CCEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Clipboard",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CodeFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CodeFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CollectFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CollectFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ConfigurationFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Copy",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DeleteEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DeleteFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DeleteFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DOCFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DownloadEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "DownloadPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "EditEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "EditFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "EditPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Email",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "EmailAttachment",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "EncryptedFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "EncryptedFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Envelope",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ErrorEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ErrorFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "File",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Foloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ForwardEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ForwardPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "GIFFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "HiddenFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "HiddenFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Inbox",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "IncomingEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "IncomingPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LinkPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LockEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LockPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PDFFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Picture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PPTFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PushEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PushPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "QuestionFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ReadEmailOne",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ReadEmailThree",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ReadEmailTwo",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SecurityEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SendEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SendPicture",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShowFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShowFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "StaffCard",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SuccessEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TimedEmail",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "TXTFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "VideoFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "VideoFoloder",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "XLSFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ZIPFile",
+		"classification": "document-file",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Bankcard",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Barcode",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Camera",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CameraOff",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Collect",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Coupon",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CurrencyExchange",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Customer",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Dislike",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Filter",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Footsteps",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Home",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Like",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LinkOne",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Order",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "QRCodeOne",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "QRCodeThree",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "QRCodeTwo",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Refund",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ScanCode",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShoppingBag",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ShoppingCart",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Store",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Subscription",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Wallet",
+		"classification": "e-commerce",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Apple",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Avocado",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Banana",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Barbecue",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BroadBean",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Cake",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Candy",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Carrot",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Cheese",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Cherry",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Chili",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Cole",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Donut",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Egg",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Eggplant",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Garlic",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Hamburger",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "IceCream",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Lemon",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Lollipop",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Orange",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Peach",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Pear",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Pineapple",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Pizza",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Pod",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Popcorn",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Sandwich",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Scallion",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Tomato",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Watermalon",
+		"classification": "kitchen-food",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Abdomen",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Anesthesiology",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Bandage",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "BloodTransfusion",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Bone",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Brain",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Buttocks",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Dermatology",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "EmergencyDepartment",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "FemaleChest",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Germs",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Heart",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Laboratory",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Liver",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Lung",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MaleChest",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Neural",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Nose",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "NutritionAndHealthDepartment",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "OperatingRoom",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Physiotherapy",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PregnantWoman",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Radiology",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Renal",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Tooth",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Uterus",
+		"classification": "medical-health",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Film",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "HDR",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Loop",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Mic",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MicOff",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Music",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Next",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PauseOne",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PauseTwo",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PlayOne",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PlayTwo",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PlayBack",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PlayForward",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Previous",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Resume",
+		"classification": "multimedia",
+		"tags": [],
 		"description": ""
 	},
 	{
 		"name": "ShuffleTwo",
 		"classification": "multimedia",
-		"tag": [],
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SpeakerLoud",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SpeakerModerate",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SpeakerOff",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SpeakerQuite",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Stop",
+		"classification": "multimedia",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "AddressBook",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ErrorUser",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "IDCard",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "MinusUser",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Passport",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PeopleFour",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PeopleOne",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PeopleThree",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PeopleTwo",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "PlusUser",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SearchUser",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SuccessUser",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "UserOne",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "UserThree",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "UserTwo",
+		"classification": "user-group",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Blizzard",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Celsius",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CloudyOne",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CloudyTwo",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CloudyDaytimeOne",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "CloudyDaytimeTwo",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Fahrenheit",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Fog",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Hail",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "HeavyRain",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "HeavySnow",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Lightning",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LightRain",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "LightSnow",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ModerateRain",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "ModerateSnow",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Moon",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "RainFreezing",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "RainShower",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Rainstorm",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Sandstorm",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Sleet",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Smog",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Snowflake",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "SnowShower",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Sun",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Sunrise",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Sunset",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Thunderstorm",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Tornado",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "Typhoon",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "WindOne",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "WindThree",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "WindTwo",
+		"classification": "weather-meteorology",
+		"tags": [],
+		"description": ""
+	},
+	{
+		"name": "WindDirection",
+		"classification": "weather-meteorology",
+		"tags": [],
 		"description": ""
 	}
 ]

@@ -29,7 +29,6 @@ const Up = defineComponent({
       <defs>
         <g id="Up">
           <path d="M12 20L12 4M12 4L19 11M12 4L5 11" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
         </g>
       </defs>
     )

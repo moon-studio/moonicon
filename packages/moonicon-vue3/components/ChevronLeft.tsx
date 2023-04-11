@@ -29,7 +29,6 @@ const ChevronLeft = defineComponent({
       <defs>
         <g id="ChevronLeft">
           <path d="M15 19L8 12L15 5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
         </g>
       </defs>
     )

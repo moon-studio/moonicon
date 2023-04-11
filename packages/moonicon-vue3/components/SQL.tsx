@@ -28,11 +28,7 @@ const SQL = defineComponent({
     return h(
       <defs>
         <g id="SQL">
-          <path d="M6.6 6H4.5C3.11929 6 2 7.11929 2 8.5V8.5C2 9.88071 3.11929 11 4.5 11V11C5.88071 11 7 12.1193 7 13.5V13.5C7 14.8807 5.88071 16 4.5 16H2" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17.911 6V14C17.911 15.5 18.9288 16 19.9466 16H23" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.6935 16L14.6935 18" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="9.69348" y="6" width="5" height="10" rx="2.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
+          <path d="M6.6 6H4.5C3.11929 6 2 7.11929 2 8.5V8.5C2 9.88071 3.11929 11 4.5 11V11C5.88071 11 7 12.1193 7 13.5V13.5C7 14.8807 5.88071 16 4.5 16H2" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M17.911 6V14C17.911 15.5 18.9288 16 19.9466 16H23" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M12.6935 16L14.6935 18" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><rect x="9.69348" y="6" width="5" height="10" rx="2.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
         </g>
       </defs>
     )

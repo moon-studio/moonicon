@@ -29,7 +29,6 @@ const Oracle = defineComponent({
       <defs>
         <g id="Oracle">
           <rect x="2" y="5" width="20" height="14" rx="7" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
         </g>
       </defs>
     )

@@ -4,12 +4,14 @@ import { WritableComputedRef } from 'vue'
 import { Customize } from '@/store/icons/types'
 import { defaultCustomize, useIconsStore } from '@/store/icons'
 import { useI18n } from 'vue-i18n'
+import { debounce } from 'lodash'
 
 export default defineComponent({
   name: 'Customize',
   setup() {
     const iconStore = useIconsStore()
 
+    const debounceTimeSnap = 50
     const customizeFields: Array<keyof Customize> = [
       'size',
       'strokeWidth',
@@ -19,25 +21,37 @@ export default defineComponent({
 
     const customizeSize: WritableComputedRef<Customize['size']> = computed({
       get: () => iconStore.getCustomize.size,
-      set: (val: Customize['size']) => iconStore.setCustomize('size', val)
+      set: debounce(
+        (val: Customize['size']) => iconStore.setCustomize('size', val),
+        debounceTimeSnap
+      )
     })
 
     const customizeStrokeWidth: WritableComputedRef<Customize['strokeWidth']> =
       computed({
         get: () => iconStore.getCustomize.strokeWidth,
-        set: (val: Customize['strokeWidth']) =>
-          iconStore.setCustomize('strokeWidth', val)
+        set: debounce(
+          (val: Customize['strokeWidth']) =>
+            iconStore.setCustomize('strokeWidth', val),
+          debounceTimeSnap
+        )
       })
 
     const customizeStroke: WritableComputedRef<Customize['stroke']> = computed({
       get: () => iconStore.getCustomize.stroke,
-      set: (val: Customize['stroke']) => iconStore.setCustomize('stroke', val)
+      set: debounce(
+        (val: Customize['stroke']) => iconStore.setCustomize('stroke', val),
+        debounceTimeSnap
+      )
     })
 
     const customizeFill: WritableComputedRef<Customize['fill']> = computed({
       get: () => iconStore.getCustomize.fill,
-      set: (val: Customize['fill']) =>
-        iconStore.setCustomize('fill', val || 'none')
+      set: debounce(
+        (val: Customize['fill']) =>
+          iconStore.setCustomize('fill', val || 'none'),
+        debounceTimeSnap
+      )
     })
 
     const resetCustomize = () => {

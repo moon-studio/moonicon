@@ -29,7 +29,6 @@ const SortTwo = defineComponent({
       <defs>
         <g id="SortTwo">
           <path d="M10 19.5V4.5L6 8.5M15 4.5V19.5L19 15.5" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
         </g>
       </defs>
     )

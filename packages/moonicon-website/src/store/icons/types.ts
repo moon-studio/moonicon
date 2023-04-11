@@ -1,7 +1,7 @@
 type Icon = {
   name: string
   classification: string
-  tag: string[]
+  tags: string[]
   description: string
 }
 

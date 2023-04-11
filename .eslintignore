@@ -1,4 +1,4 @@
 node_modules
 dist
 public
-packages/moonicon-vue3/components/*
+packages/moonicon-vue3/components

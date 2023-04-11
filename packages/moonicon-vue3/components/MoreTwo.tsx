@@ -28,10 +28,7 @@ const MoreTwo = defineComponent({
     return h(
       <defs>
         <g id="MoreTwo">
-          <ellipse cx="11.9999" cy="5.3241" rx="1" ry="1.00006" transform="rotate(90 11.9999 5.3241)" stroke={$props.stroke} strokeWidth={$props.strokeWidth}/>
-<ellipse cx="11.9999" cy="11.9999" rx="1" ry="1.00006" transform="rotate(90 11.9999 11.9999)" stroke={$props.stroke} strokeWidth={$props.strokeWidth}/>
-<ellipse cx="11.9999" cy="18.6759" rx="1" ry="1.00006" transform="rotate(90 11.9999 18.6759)" stroke={$props.stroke} strokeWidth={$props.strokeWidth}/>
-
+          <ellipse cx="11.9999" cy="5.3241" rx="1" ry="1.00006" transform="rotate(90 11.9999 5.3241)" stroke={$props.stroke} strokeWidth={$props.strokeWidth}/><ellipse cx="11.9999" cy="11.9999" rx="1" ry="1.00006" transform="rotate(90 11.9999 11.9999)" stroke={$props.stroke} strokeWidth={$props.strokeWidth}/><ellipse cx="11.9999" cy="18.6759" rx="1" ry="1.00006" transform="rotate(90 11.9999 18.6759)" stroke={$props.stroke} strokeWidth={$props.strokeWidth}/>
         </g>
       </defs>
     )

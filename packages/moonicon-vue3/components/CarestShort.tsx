@@ -28,9 +28,7 @@ const CarestShort = defineComponent({
     return h(
       <defs>
         <g id="CarestShort">
-          <path d="M7.25002 15.7139L11.9902 20.454L16.7303 15.7139" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7.25 8.34009L11.9902 3.59992L16.7303 8.34009" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-
+          <path d="M7.25002 15.7139L11.9902 20.454L16.7303 15.7139" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M7.25 8.34009L11.9902 3.59992L16.7303 8.34009" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
         </g>
       </defs>
     )
