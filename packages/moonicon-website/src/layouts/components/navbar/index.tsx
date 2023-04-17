@@ -1,15 +1,15 @@
 import { defineComponent } from 'vue'
-import styles from './index.module.scss'
 import { NDivider, NMenu, NButton } from 'naive-ui'
 import { getImageUrl } from '@/utils/common'
+import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
 import router from '../../../router'
-import { useI18n } from 'vue-i18n'
+import styles from './index.module.scss'
 
 const Navbar = defineComponent({
   name: 'Navbar',
   setup() {
-    const { locale } = useI18n()
+    const { locale, t } = useI18n()
 
     const menuOptions = [
       {
@@ -21,13 +21,9 @@ const Navbar = defineComponent({
                 name: 'icon'
               }
             },
-            { default: () => 'Icon' }
+            { default: () => t('navbar.icon') }
           ),
         key: 'Icon'
-      },
-      {
-        label: 'User Guide',
-        key: 'UserGuide'
       }
     ]
 
