@@ -1,12 +1,7 @@
 import { defineComponent, h } from 'vue'
 import type { PropType } from 'vue'
-
+  
 const props = {
-  // fill color
-  fill: {
-    type: String as PropType<string>,
-    default: '#fff'
-  },
   // stroke color
   stroke: {
     type: String as PropType<string>,
@@ -28,7 +23,7 @@ const DownRight = defineComponent({
     return h(
       <defs>
         <g id="DownRight">
-          <path d="M5 5L19 19" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M19 8V19H8" stroke={$props.stroke} strokeWidth={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 5L19 19" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M19 8V19H8" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
         </g>
       </defs>
     )
