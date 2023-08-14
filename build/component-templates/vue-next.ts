@@ -1,9 +1,30 @@
 // vue 3 组件模板
-export default (filename: string, shapeStr: string) => {
-  return `import { defineComponent, h } from 'vue'
-import type { PropType } from 'vue'
+import type { DynamicPropertyType } from '../config'
 
-const props = {
+const componentHeader = `import { defineComponent, h } from 'vue'
+import type { PropType } from 'vue'`
+
+const componentProps: Record<DynamicPropertyType, string> = {
+  fill: `const props = {
+  // fill color
+  fill: {
+    type: String as PropType<string>,
+    default: '#fff'
+  }
+}`,
+  line: `const props = {
+  // stroke color
+  stroke: {
+    type: String as PropType<string>,
+    default: '#333'
+  },
+  // recommended value 1.2
+  strokeWidth: {
+    type: [Number, String] as PropType<number | string>,
+    default: 1.2
+  }
+}`,
+  double: `const props = {
   // fill color
   fill: {
     type: String as PropType<string>,
@@ -19,9 +40,11 @@ const props = {
     type: [Number, String] as PropType<number | string>,
     default: 1.2
   }
+}`
 }
 
-const ${filename} = defineComponent({
+const componentBody = (filename: string, shapeStr: string): string => {
+  return `const ${filename} = defineComponent({
   name: '${filename}',
   props,
   render() {
@@ -39,4 +62,16 @@ const ${filename} = defineComponent({
 
 export { ${filename} }
 `
+}
+
+export default (
+  filename: string,
+  shapeStr: string,
+  type: DynamicPropertyType
+) => {
+  return `${componentHeader}
+  
+${componentProps[type]}
+
+${componentBody(filename, shapeStr)}`
 }

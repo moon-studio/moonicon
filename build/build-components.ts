@@ -3,6 +3,7 @@ import path from 'path'
 import { red, yellow } from 'kolorist'
 import { svgPathToV3Components } from './utils/vue-next-generator'
 import { toUpperCaseCamelCase } from './utils/format-file-name'
+import type { DynamicPropertyType } from './config'
 
 const SvgFilePath = path.resolve('packages/moonicon-svg/files/')
 
@@ -59,6 +60,7 @@ const processSvgFiles = () => {
       try {
         const data = fs.readFileSync(f)
         const file = f.split(/[\/\\]/).pop()
+        const type = path.basename(path.dirname(f)) as DynamicPropertyType // 填充 fill 或者线性 line
         const filename = toUpperCaseCamelCase(file.split('.svg')[0])
 
         processCatchError(filename, f)
@@ -78,7 +80,7 @@ const processSvgFiles = () => {
         }
 
         // 转为 vue 3 组件
-        svgPathToV3Components(filename, shapeTagMap)
+        svgPathToV3Components(filename, shapeTagMap, type)
       } catch (e) {
         console.log(red('Read File Error'), f, e)
       }
