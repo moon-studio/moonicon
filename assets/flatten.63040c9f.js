@@ -1,1 +1,0 @@
-import{j as a,F as p,C as y}from"./index.5e0e536a.js";function i(f,t=!0,n=[]){return f.forEach(r=>{if(r!==null){if(typeof r!="object"){(typeof r=="string"||typeof r=="number")&&n.push(a(String(r)));return}if(Array.isArray(r)){i(r,t,n);return}if(r.type===p){if(r.children===null)return;Array.isArray(r.children)&&i(r.children,t,n)}else r.type!==y&&n.push(r)}}),n}export{i as f};
