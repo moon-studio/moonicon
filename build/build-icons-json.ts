@@ -14,9 +14,11 @@ const svgPathList: string[] = []
 const processIconInfo = (svgPath: string): IconInfo => {
   const name = toUpperCaseCamelCase(path.basename(svgPath, '.svg'))
   const classification = path.basename(path.dirname(path.dirname(svgPath)))
+  const type = path.basename(path.dirname(svgPath))
   return {
     name,
     classification,
+    type,
     tags: [],
     description: ''
   }

@@ -1,4 +1,10 @@
-const JsonFields = ['name', 'classification', 'tags', 'description'] as const
+const JsonFields = [
+  'name',
+  'classification',
+  'type',
+  'tags',
+  'description'
+] as const
 
 export type JsonField = (typeof JsonFields)[number]
 
