@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { red, yellow } from 'kolorist'
-import { svgPathToV3Components } from './utils/vue-next-generator'
+import { clearIndexFile, svgPathToV3Components } from "./utils/vue-next-generator";
 import { toUpperCaseCamelCase } from './utils/format-file-name'
 import type { DynamicPropertyType } from './config'
 
@@ -11,6 +11,7 @@ const svgPathList: any[] = []
 // 已处理文件 map，避免重名文件处理
 const processedFilesMap = new Map()
 const processedErrorFiles: Record<string, any> = {}
+
 const processCatchError = (filename: string, path: string) => {
   if (processedFilesMap.has(filename)) {
     if (!processedErrorFiles[filename]) {
@@ -90,4 +91,5 @@ const processSvgFiles = () => {
   })
 }
 
+clearIndexFile()
 processSvgFiles()

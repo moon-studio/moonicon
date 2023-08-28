@@ -2,6 +2,10 @@ import { defineComponent, h } from 'vue'
 import type { PropType } from 'vue'
   
 const props = {
+  size: {
+    type: [Number, String] as PropType<number | string>,
+    default: '24'
+  },
   // stroke color
   stroke: {
     type: String as PropType<string>,
@@ -17,17 +21,19 @@ const props = {
 const ChevronsUp = defineComponent({
   name: 'ChevronsUp',
   props,
-  render() {
-    const $props = this.$props
-    
-    return h(
-      <defs>
-        <g id="ChevronsUp">
-          <path d="M5 11L12 6L19 11" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M5 18L12 13L19 18" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-      </defs>
+  setup(props) {
+    return () => (
+      <svg
+        width={props.size}
+        height={props.size}
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+      >
+        <path d="M5 11L12 6L19 11" stroke={props.stroke} stroke-width={props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/><path d="M5 18L12 13L19 18" stroke={props.stroke} stroke-width={props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
     )
   }
 })
 
-export { ChevronsUp }
+export default ChevronsUp

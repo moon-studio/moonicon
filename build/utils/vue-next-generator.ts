@@ -19,13 +19,24 @@ const dynamicPropertiesRegs = {
 }
 
 const Vue3FilePath = path.resolve('packages/moonicon-vue3/components/')
+const Vue3IndexFilePath = path.resolve('packages/moonicon-vue3/index.ts')
+
+export const clearIndexFile = () => {
+  fs.writeFileSync(Vue3IndexFilePath, '')
+}
+export const appendIndexFile = (filename: string) => {
+  fs.appendFileSync(
+    Vue3IndexFilePath,
+    `export { default as ${filename} } from './components/${filename}';\n`
+  )
+}
 
 export const propToV3DynamicProp = (
   str: string,
   type: DynamicPropertyType
 ): string => {
   for (const { name, reg } of dynamicPropertiesRegs[type]) {
-    str = str.replace(reg, `${name}={$props.${PropertyToPropMap[name]}}`)
+    str = str.replace(reg, `${name}={props.${PropertyToPropMap[name]}}`)
   }
   return str
 }
@@ -46,6 +57,7 @@ export const svgPathToV3Components = (
   }
   if (shapeString) {
     checkOutputDir(Vue3FilePath)
+    appendIndexFile(filename)
     writeV3Components(filename, vueNextTemplate(filename, shapeString, type))
   }
 }

@@ -2,6 +2,10 @@ import { defineComponent, h } from 'vue'
 import type { PropType } from 'vue'
   
 const props = {
+  size: {
+    type: [Number, String] as PropType<number | string>,
+    default: '24'
+  },
   // stroke color
   stroke: {
     type: String as PropType<string>,
@@ -17,17 +21,19 @@ const props = {
 const Right = defineComponent({
   name: 'Right',
   props,
-  render() {
-    const $props = this.$props
-    
-    return h(
-      <defs>
-        <g id="Right">
-          <path d="M4 12H20M20 12L13 5M20 12L13 19" stroke={$props.stroke} stroke-width={$props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-      </defs>
+  setup(props) {
+    return () => (
+      <svg
+        width={props.size}
+        height={props.size}
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+      >
+        <path d="M4 12H20M20 12L13 5M20 12L13 19" stroke={props.stroke} stroke-width={props.strokeWidth} stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
     )
   }
 })
 
-export { Right }
+export default Right

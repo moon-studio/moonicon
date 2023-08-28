@@ -1,6 +1,5 @@
-import { defineComponent, h } from 'vue'
-import type { PropType } from 'vue'
-import { MIconConfigs } from '../types'
+import { type PropType, type Component, defineComponent, h } from 'vue'
+import { MIconConfigs } from '@moonicon/moonicon-vue3/types'
 
 const props = {
   fill: {
@@ -25,39 +24,18 @@ const props = {
   }
 }
 
+const modules: Record<string, Component> = {}
+const files: any = import.meta.glob('../components/*.tsx', { eager: true })
+Object.keys(files).forEach((fileName) => {
+  const name = fileName.replace(/\..\/components\/|\.tsx/g, '')
+  modules[name] = files[fileName].default
+})
+
 const MIcon = defineComponent({
   name: 'MIcon',
   props,
   render(props: MIconConfigs) {
-    const modules: any = {}
-    const files: any = import.meta.glob('../components/*.tsx', { eager: true })
-    Object.keys(files).forEach((fileName) => {
-      const name = fileName.replace(/\..\/components\/|\.tsx/g, '')
-      modules[name] = files[fileName][props.name]
-    })
-
-    return (
-      props.name &&
-      h(
-        'svg',
-        {
-          xmlns: 'http://www.w3.org/2000/svg',
-          'xmlns:xlink': 'http://www.w3.org/1999/xlink',
-          viewBox: '0 0 24 24',
-          width: props.size,
-          height: props.size
-        },
-        [
-          h('use', {
-            href: '#' + props.name,
-            fill: props.fill,
-            stroke: props.stroke,
-            'stroke-width': props.strokeWidth
-          }),
-          h(modules[props.name])
-        ]
-      )
-    )
+    return props.name && h(modules[props.name], props)
   }
 })
 
