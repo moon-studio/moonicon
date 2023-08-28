@@ -15,8 +15,7 @@ packages/*/.temp
 packages/*/.cache
 moonicon
 packages/moonicon-svg/resources/*
-!packages/moonicon-svg/resources/index.json
-packages/moonicon-website/src/csv/*
+!packages/moonicon-svg/resources/icons.csv
 
 .pnpm-debug.log
 
