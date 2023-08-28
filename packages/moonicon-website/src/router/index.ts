@@ -28,7 +28,6 @@ router.beforeEach(
   ) => {
     NProgress.start()
     next()
-    NProgress.done()
   }
 )
 
