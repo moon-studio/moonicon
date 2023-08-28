@@ -35,16 +35,18 @@ const writeJsonContent = () => {
 
     const result: Record<string, any>[] = []
     for (let i = 1; i < csvArray.length; i++) {
-      const cur = csvArray[i]
-      const obj: Record<string, unknown> = {}
-      cur.split(',').forEach((cur, index) => {
-        if (arrayKeys.includes(keyIndex[index])) {
-          obj[keyIndex[index]] = cur.split('，').filter((i) => i.length)
-        } else {
-          obj[keyIndex[index]] = cur
-        }
-      })
-      result.push(obj)
+      const csvItem = csvArray[i]
+      if (csvItem && csvItem.length) {
+        const obj: Record<string, unknown> = {}
+        csvItem.split(',').forEach((cur, index) => {
+          if (arrayKeys.includes(keyIndex[index])) {
+            obj[keyIndex[index]] = cur.split('，').filter((i) => i.length)
+          } else {
+            obj[keyIndex[index]] = cur
+          }
+        })
+        result.push(obj)
+      }
     }
 
     fs.writeFileSync(JsonFilePath, JSON.stringify(result, null, 2))
