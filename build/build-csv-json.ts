@@ -39,7 +39,7 @@ const writeJsonContent = () => {
       const obj: Record<string, unknown> = {}
       cur.split(',').forEach((cur, index) => {
         if (arrayKeys.includes(keyIndex[index])) {
-          obj[keyIndex[index]] = JSON.parse(cur || '[]')
+          obj[keyIndex[index]] = cur.split('，').filter((i) => i.length)
         } else {
           obj[keyIndex[index]] = cur
         }
