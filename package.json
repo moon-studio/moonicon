@@ -19,8 +19,8 @@
     "exportJson": "ts-node-esm --experimental-specifier-resolution=node build/build-icons-json.ts",
     "exportCsv": "json2csv -i packages/moonicon-svg/resources/index.json -c build/config/fieldsConfig.json -o packages/moonicon-svg/resources/icons.csv",
     "build:icons": "npm run compiler && npm run exportJson",
-    "build": "npm run compiler && vite build",
-    "build:website": "npm run build:icons && cd packages/moonicon-website && npm run build"
+    "build:website": "cd packages/moonicon-website && npm run build",
+    "build": "npm run compiler && vite build"
   },
   "repository": {
     "type": "git",

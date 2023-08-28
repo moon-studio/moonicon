@@ -35,6 +35,7 @@ jobs:
         run: |
           npm install pnpm -g
           pnpm install --fix-lockfile
+          npm run build:icons
           npm run build:website
       
 

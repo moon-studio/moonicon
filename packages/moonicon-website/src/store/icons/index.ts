@@ -43,8 +43,10 @@ export const useIconsStore = defineStore({
       }
       return this.icons.filter((icon) => {
         return (
-          icon[this.getSearchType] && 
-          icon[this.getSearchType].toLowerCase().includes(this.searchText.toLowerCase())
+          icon[this.getSearchType] &&
+          icon[this.getSearchType]
+            .toLowerCase()
+            .includes(this.searchText.toLowerCase())
         )
       })
     },

@@ -20,14 +20,14 @@ const Content = defineComponent({
         locale={zhCN}
         date-locale={dateZhCN}
         theme-overrides={themeList.light}
+        abstract
       >
         <NLayoutHeader>
           <Navbar />
         </NLayoutHeader>
         <NLayout position='absolute' style='top: 80px'>
           <NLayoutContent
-            native-scrollbar={false}
-            style='padding: 0 64px 0 64px'
+            style='padding: 0 64px 0 64px; width: 100%; height: 100%'
             contentStyle={'height: 100%'}
           >
             <router-view />

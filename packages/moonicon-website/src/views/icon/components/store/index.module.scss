@@ -1,10 +1,17 @@
-.iconStore {
+.iconStoreWrapper {
   grid-area: store;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.iconStore {
   width: 100%;
   display: grid;
   justify-content: space-between;
   grid-template-columns: repeat(auto-fill, minmax(132px, 148px));
   grid-gap: 16px;
+  padding: 0 4px;
+  box-sizing: border-box;
   .iconItem {
     width: 100%;
     height: 0;
@@ -47,6 +54,7 @@
 }
 
 .emptyContent {
+  grid-area: store;
   width: 100%;
   min-height: 400px;
   display: flex;
@@ -61,4 +69,5 @@
     font-size: 16px;
     color: #888888;
   }
+  .emptyTipButton {}
 }
