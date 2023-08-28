@@ -1,7 +1,10 @@
 import fs from 'fs'
 import path from 'path'
 import { red, yellow } from 'kolorist'
-import { clearIndexFile, svgPathToV3Components } from "./utils/vue-next-generator";
+import {
+  clearIndexFile,
+  svgPathToV3Components
+} from './utils/vue-next-generator'
 import { toUpperCaseCamelCase } from './utils/format-file-name'
 import type { DynamicPropertyType } from './config'
 

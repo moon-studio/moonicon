@@ -10,7 +10,7 @@ import {
   type DynamicPropertyType,
   PropertyToPropMap
 } from '../config'
-import { checkOutputDir } from './checkOutput'
+import { checkOutputDir } from './check-output'
 
 const dynamicPropertiesRegs = {
   fill: DynamicFillPropertiesRegs,

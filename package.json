@@ -16,9 +16,8 @@
     "test-coverage:util": "vitest run --coverage packages/moonicon-util",
     "website": "vite packages/moonicon-website",
     "compiler": "ts-node-esm --experimental-specifier-resolution=node build/build-components.ts",
-    "exportJson": "ts-node-esm --experimental-specifier-resolution=node build/build-icons-json.ts",
-    "exportCsv": "json2csv -i packages/moonicon-svg/resources/index.json -c build/config/fieldsConfig.json -o packages/moonicon-svg/resources/icons.csv",
-    "build:icons": "npm run compiler && npm run exportJson",
+    "build:json": "ts-node-esm --experimental-specifier-resolution=node build/build-csv-json.ts",
+    "build:icons": "npm run compiler && npm run build:json",
     "build:website": "cd packages/moonicon-website && npm run build",
     "build": "npm run compiler && vite build"
   },

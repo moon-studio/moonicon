@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { toUpperCaseCamelCase } from './utils/format-file-name'
 import { type IconInfo } from './config'
-import { checkOutputFile } from './utils/checkOutput'
+import { checkOutputFile } from './utils/check-output'
 import { green } from 'kolorist'
 
 const SvgFilePath = path.resolve('packages/moonicon-svg/files/')
